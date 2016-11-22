@@ -12,6 +12,7 @@
   },
   "scripts": {
     "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "test": "exit 0",
     "start": "node node_modules/react-native/local-cli/cli.js start"
   }
 }
