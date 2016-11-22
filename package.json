@@ -1,0 +1,17 @@
+{
+  "name": "react-native-umeng-ushare",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "flow": "^0.2.3"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotosbin/react-native-umeng-ushare.git"
+  },
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  }
+}
